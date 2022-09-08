@@ -46,6 +46,12 @@ cd my-turborepo
 npm run dev
 ```
 
+For one project develop run:
+
+```
+turbo run dev --scope=name
+```
+
 ### Remote Caching
 
 Turborepo can use a technique known as [Remote Caching (Beta)](https://turborepo.org/docs/features/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
